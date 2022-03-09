@@ -1,0 +1,64 @@
+.container{
+    /* height: auto; */
+    /* width: auto; */
+    background-color: slategrey;
+    /* margin-left: 3rem; */
+}
+@media screen and (max-width: 768px) {
+    
+    .child{
+        width: 33.33% !important;
+        margin: 1rem 1.5rem !important;
+    }
+    .nav{
+        width: 417px !important;
+        flex-wrap: wrap;
+        padding: 1rem 5rem !important;
+    }
+    .body{
+        margin-left: 2rem;
+    }
+}
+.body{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav{
+    padding: 1rem 15rem;
+    color: white;
+    
+}
+/* .body{
+    display: grid;
+    grid-template-columns: 40fr 40fr 40fr;
+    grid-template-rows: 2 , 30fr;
+    margin-left: 3rem;
+    
+} */
+.tag{
+    margin-left: 5rem;
+    color: yellow;
+}
+.name{
+    color: yellow;
+}
+button{
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 200px;
+    background: yellow;
+}
+.but{
+    padding-top: 2rem;
+    position: relative;
+    height: 100px;
+}
+.child{
+    
+    background-color: dimgray;
+    padding: 1rem 2rem;
+    width: 25%;
+    margin: 1rem;
+}
